@@ -32,7 +32,7 @@ $('#showRightPush').click(function () {
 });
 
 
-$(document).ready(function(){
+$(window).load(function(){
 
     // set the image-map width and height to match the img size
     $('#image-map').css({'width':$('#image-map img').width(),
