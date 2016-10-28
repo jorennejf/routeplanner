@@ -1,0 +1,19 @@
+{
+  "name": "route-planner-app",
+  "version": "1.0.0",
+  "author": "Jorenne Flores, Daniel Roberto, Jomar Batac",
+
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jorennejf/routeplanner.git"
+  },
+  "license": "MIT",
+
+  "main": "server.js",
+  "dependencies": {
+    "express": "3.x"
+  },
+  "engines": {
+    "node": "0.10.x"
+  }
+}
