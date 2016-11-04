@@ -1,4 +1,7 @@
 /**
+ * Introduction to Human-Computer Interaction
+ * Lab 2
+ * --------------
  * Created by: Michael Bernstein
  * Last updated: December 2013
  */
@@ -11,7 +14,6 @@ var express = require('express');
 // Create the server instance
 var app = express();
 
-
 // Print logs to the console and compress pages we send
 app.use(express.logger());
 app.use(express.compress());
@@ -20,12 +22,10 @@ app.use(express.compress());
 // whenever they are requested at '/'
 // e.g., http://localhost:3000/index.html
 // maps to /static/index.html on this machine
-app.use(express.static(__dirname + '/static'));
+app.use(express.static(__dirname));
 
 // Start the server
 var port = process.env.PORT || PORT; // 80 for web, 3000 for development
 app.listen(port, function() {
 	console.log("Node.js server running on port %s", port);
-
-
 });

@@ -1,0 +1,53 @@
+{ 
+  "startpoint":
+  [
+
+  "san diego, ca",
+  "st louis, mo",
+  "Miami, FL",
+  "oklahoma city, ok",
+  "dallas, tx",
+  "las vegas, nv",
+  "seattle, wa",
+  "phoenix, az",
+  "portland, or",
+  "san francisco, ca",
+  "new york city, ny",
+  "los angeles, ca",
+  
+  ]
+
+"stopover":
+  [
+
+  "san diego, ca",
+  "st louis, mo",
+  "Miami, FL",
+  "oklahoma city, ok",
+  "dallas, tx",
+  "las vegas, nv",
+  "seattle, wa",
+  "phoenix, az",
+  "portland, or",
+  "san francisco, ca",
+  "new york city, ny",
+  "los angeles, ca",
+]
+
+  "endpoint":
+  [
+
+  "san diego, ca",
+  "st louis, mo",
+  "Miami, FL",
+  "oklahoma city, ok",
+  "dallas, tx",
+  "las vegas, nv",
+  "seattle, wa",
+  "phoenix, az",
+  "portland, or",
+  "san francisco, ca",
+  "new york city, ny",
+  "los angeles, ca",
+]
+}
